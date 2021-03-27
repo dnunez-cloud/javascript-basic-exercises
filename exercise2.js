@@ -35,7 +35,7 @@ Utilizar los métodos de los ejercicios anteriores para generar un nuevo string 
 palabras en mayúscula y las demás letras en minúscula (utilizar indexOf, substring, toUpperCase, toLowerCase y el 
 operador +).*/
 var firstWord= 'sPECTACULAR pERFORMANCE';
-var secondWord= firstWord.substring(0,1).toUpperCase()+ firstWord.substring(1,11).toLowerCase() + " " +
-firstWord.substring(12,13).toUpperCase()+ firstWord.substring(13,23).toLowerCase();
-console.log(secondWord);
+var secondWord= firstWord.substring(0,1).toUpperCase()+ firstWord.substring(1,11).toLowerCase() + ' ' +
+firstWord.substring(12,13).toUpperCase()+ firstWord.substring(13,23).toLowerCase() + firstWord.indexOf('s');
+console.log('The string transformed sPECTACULAR pERFORMANCE is: ',secondWord);
 

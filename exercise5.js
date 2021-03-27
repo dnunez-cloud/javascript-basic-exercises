@@ -18,7 +18,7 @@ bucle for para ir guardando cada palabra dentro de la variable sentence. Al fina
 completa.*/
 var sentence= "";
 for (var i = 0; i < fiveWords.length; i++) {
-  sentence= sentence + " " + fiveWords[i];
+  sentence= sentence + ' ' + fiveWords[i];
 }
 console.log('The string sentence is: ',sentence);
 
@@ -27,6 +27,6 @@ decir que al final de la ejecución del bucle for deberia haber 10 elementos den
  numero 9. Mostrar por la consola del navegador el al array final (utilizar console.log).*/
 var numbers0to9= [];
 for (var i = 0; i < 10; i++) {
-  numbers0to9= numbers0to9 + " " + i;
+  numbers0to9= numbers0to9 + ' ' + i;
 }
 console.log('The array: ',numbers0to9);
